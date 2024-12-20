@@ -42,26 +42,21 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
       
 
         <div id="header">
           <img class="banner" src="{{url_for('static', filename='assets/img/header.png')}}"  style="position: relative; left: 20px;" />
-           
-
         </div>
-
-
         <h1 class="sitename">Пром-Тех</h1> <span>.</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Домой</a></li>
-          <li><a href="about.html" class="active">О нас</a></li>
-          <li><a href="services.html">Услуги</a></li>
-          <li><a href="projects.html">Проекты</a></li>
-          <li><a href="blog.html">Влог</a></li>
+          <li><a href="/">Домой</a></li>
+          <li><a href="/about" class="active">О нас</a></li>
+          <li><a href="/services">Услуги</a></li>
+          <li><a href="/projects">Проекты</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -79,7 +74,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Контакты</a></li>
+          <li><a href="/contact">Контакты</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -95,7 +90,7 @@
         <h1>О нас</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Домой</a></li>
+            <li><a href="/">Домой</a></li>
             <li class="current">О нас</li>
           </ol>
         </nav>
@@ -126,7 +121,6 @@
 
               <div class="watch-video d-flex align-items-center position-relative">
                 <i class="bi bi-play-circle"></i>
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox stretched-link">Watch Video</a>
               </div>
             </div>
           </div>
@@ -571,7 +565,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="/" class="logo d-flex align-items-center">
             
             <div id="header">
               <img class="banner" src="{{url_for('static', filename='assets/img/header.png')}}"  style="position: relative; left: 20px;" />
