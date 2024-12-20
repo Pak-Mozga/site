@@ -42,7 +42,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
        
         <div id="header">
           <img class="banner" src="{{url_for('static', filename='assets/img/header.png')}}"  style="position: relative; left: 20px;" />
@@ -56,11 +56,10 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Домой</a></li>
-          <li><a href="about.html">О нас</a></li>
-          <li><a href="services.html">Услуги</a></li>
-          <li><a href="projects.html">Проекты</a></li>
-          <li><a href="blog.html">Влог</a></li>
+          <li><a href="/">Домой</a></li>
+          <li><a href="/about">О нас</a></li>
+          <li><a href="/services">Услуги</a></li>
+          <li><a href="/projects">Проекты</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -78,7 +77,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html" class="active">Контакты</a></li>
+          <li><a href="/contact" class="active">Контакты</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -94,7 +93,7 @@
         <h1>Контакты</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Домой</a></li>
+            <li><a href="/">Домой</a></li>
             <li class="current">Контакты</li>
           </ol>
         </nav>
@@ -184,7 +183,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="/" class="logo d-flex align-items-center">
             
             <div id="header">
               <img class="banner" src="{{url_for('static', filename='assets/img/header.png')}}"  style="position: relative; left: 20px;" />

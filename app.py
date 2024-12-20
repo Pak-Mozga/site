@@ -17,9 +17,21 @@ def about() -> str:
 def contact() -> str:
     return render_template('contact.html')
 
-@app.route('/service')
+@app.route('/services')
 def service() -> str:
     return  render_template('services.html')
+
+@app.route('/projects')
+def projects() -> str:
+    return  render_template('projects.html')
+
+@app.route('/project-details')
+def project_details() -> str:
+    return  render_template('project-details.html')
+
+@app.route('/service-details')
+def service_details() -> str:
+    return  render_template('service-details.html')
 
 def create_database():
     con = sqlite3.connect('website.db')
